@@ -1,7 +1,7 @@
 const btn = document.querySelector(".btn");
 const btn1 = document.querySelector(".btn1");
 // 정답
-const answer = "김건호존잘";
+const answer = "날씨가좋아";
 
 btn1.addEventListener("click", () => {
   const hint = document.querySelector(".hint");
@@ -25,14 +25,15 @@ btn.addEventListener("click", (e) => {
     } else {
       input[i].style.background = "lightgrey";
     }
+    input[i].classList.remove("input");
   }
+
   const form = document.getElementById("form");
-  const template = `<div class ="input-box">
-  <input type="text" class="input">
-  <input type="text" class="input">
-  <input type="text" class="input">
-  <input type="text" class="input">
-  <input type="text" class="input">
-</div>`;
+  const template = `
+  <input type="text" class="input" maxlength="1">
+  <input type="text" class="input" maxlength="1">
+  <input type="text" class="input" maxlength="1">
+  <input type="text" class="input" maxlength="1">
+  <input type="text" class="input" maxlength="1">`;
   form.insertAdjacentHTML("beforeend", template);
 });

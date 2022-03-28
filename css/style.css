@@ -72,11 +72,11 @@ button {
 
 #form {
     margin: 0 auto;
-    width: 350px;
+    width: 300px;
     text-align: center;
 }
 
-.input {
+input {
     margin: 5px auto;
     width: 45px;
     height: 45px;
@@ -103,9 +103,6 @@ button {
     cursor: pointer;
 }
 
-.input-box {
-    margin-right: 65px;
-}
 
 @keyframes hintMove {
     to {
