@@ -1,4 +1,4 @@
-[## Hordle (단어맞추기 게임)
+## Hordle (단어맞추기 게임)
 
 ``` Javascript
   for (let i = 0; i < 5; i++) {
@@ -12,4 +12,4 @@
     input[i].classList.remove("input");
   }
 ```
-위에 for 문을 이용해 5칸의 글자에 맞춰 색깔 구별을 하였습니다.](url)
+위에 for 문을 이용해 5칸의 글자에 맞춰 색깔 구별을 하였습니다.
