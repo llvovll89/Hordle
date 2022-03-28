@@ -29,11 +29,12 @@ btn.addEventListener("click", (e) => {
   }
 
   const form = document.getElementById("form");
-  const template = `
+  const template = `<div classe="input-box">
   <input type="text" class="input" maxlength="1">
   <input type="text" class="input" maxlength="1">
   <input type="text" class="input" maxlength="1">
   <input type="text" class="input" maxlength="1">
-  <input type="text" class="input" maxlength="1">`;
+  <input type="text" class="input" maxlength="1">
+  </div>`;
   form.insertAdjacentHTML("beforeend", template);
 });
